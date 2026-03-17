@@ -1,6 +1,6 @@
 import { useState } from "react"
-import SearchForm from "./components/SearchForm"
-import PlaceCard from "./components/PlaceCard"
+import SearchForm from "./components/searchForm.jsx"
+import PlaceCard from "./components/placeCard.jsx"
 
 function App() {
   const [place, setPlace] = useState(null)
